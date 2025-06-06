@@ -1,0 +1,131 @@
+.y1 {
+    width: 100%;
+    height: 1000.6667px;
+    display: flex;
+    color: #000000;
+    margin-top: 1800px;
+    /* background-image: url('../../assets/last2.png'); */
+    background-size: cover;
+}
+.y2 {
+  font-family: 'Inter',sans-serif;
+  z-index: 1;
+  display: inline;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.y2 h2{
+  font-family: 'Inter',sans-serif;
+  font-weight: 700;
+  font-size: 34.67px;
+  line-height: 140%;
+  letter-spacing: 11%;
+  text-transform: uppercase;
+  width: 332px;
+  height: 98px;
+  gap: 8px;
+  
+}
+.y3 img{
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 630px;
+  height: 738px;
+}
+.highlight {
+  color: #e91e63;
+}
+.box {
+  margin-bottom: 1rem;
+  width: 538.67px;
+  height: auto;
+  gap: 26.67px;
+  border-bottom: 1px solid #707070;
+  padding-left: 26.67px;
+}
+.btn {
+  margin-left: -20px;
+  width: 100%;
+  height: 53.3337px;
+  border-top-right-radius: 5.33px;
+  border-bottom-right-radius: 5.33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  background: transparent;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 57.3337px;
+  height: 100%;
+  /* background: #333; */
+  border-top-right-radius: 5.33px;
+  border-bottom-right-radius: 5.33px;
+  font-size: 1.25rem;
+}
+.answer {
+  margin-left: -20px;
+  padding: 1rem;
+  background:transparent;
+  color: #000000;
+}
+
+
+@media (max-width: 768px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .y1 {
+        height: auto;
+        margin-top: -1000px;
+        background-size: cover;
+        padding: 20px 0;
+    }
+    .y2 {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .y2 h2 {
+        font-size: 24px;
+        width: auto;
+        letter-spacing: 5%;
+        margin-left: 10px;
+    }
+    .box {
+        width: 95%;
+        padding-left: 15px;
+        padding-right: 32px;
+        margin-bottom: 20px;
+    }
+    .btn {
+        width: 100%;
+        margin-left: -10px;
+        padding: 0.5rem;
+    }
+    .icon {
+        margin-right: -50px;
+        height: 53px;
+        width: 53px;
+        font-size: 1rem;
+        border-radius: 4px;
+    }
+    .answer {
+        padding: 0.5rem;
+        font-size: 14px;
+    }
+    .y3 {
+      display: none;
+    }
+
+    .y3 img {
+      display: none;
+    }
+    .answer{
+      margin-left: -10px;
+    }
+}

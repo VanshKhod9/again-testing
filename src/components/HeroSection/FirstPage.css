@@ -1,0 +1,213 @@
+.first-page-content{
+    margin-top: 20px;
+    margin-left: 550px;
+
+}
+.exceptbutton{
+    width: 497.322265625px;
+    height: 110px;
+}
+.exceptsectext{
+    width: 497.322265625px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+}
+.AiAssited{
+    width: 497.322265625px;
+    height: 70.333251953125px;
+    display: flex;
+}
+.ai{
+    font-family: 'Inter', sans-serif;
+    width: 294px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+}
+.changingtext{
+    font-family: Solitreo;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 25.6px;
+    letter-spacing: 0%;    
+}
+.twotext {
+    width: 274px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: -30px;
+  }
+  
+  .twotext a {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  
+  .twotext p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.2;
+    background: linear-gradient(90deg, #FF1E00 0%, #FF41C6 80.77%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    margin-left: 0px;
+  }
+  .sectext{
+    margin-top: 70px;
+    width: 451px;
+    height: 27px;
+    top: 257px;
+    margin-left: 30px;
+    font-family: Inter;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+.buttonText{
+    margin-top: 120px;
+    text-align: center;
+    align-content: center;
+    border-radius: 29.65px;
+    
+}
+.gradient-button{
+    border-style: none;
+    width: 200px;
+    height: 43.67395782470703px;
+    border-radius: 29.65px;
+    background: linear-gradient(270deg, #FFD84E 0%, #FA00FF 6.91%, #8626FF 22.17%, #3300FF 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.31) 0%, rgba(255, 255, 255, 0) 93.55%);
+
+
+}
+.button-text{
+    color: white;
+    font-weight: 700;
+    font-size: 13.23px;
+    line-height: 16.94px;
+    letter-spacing: 0%;    
+}
+.arrow-icon{
+    font-size: 10px;
+    padding-top: 9.5px;
+    padding-left: 11.5px;
+    padding-bottom: 9.5px;
+    padding-right:11.5px;
+    border: 1px solid #FFFFFF;
+    color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+
+}
+.interface {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+.interface img{
+    width: 1022.9508056640625px;
+    height: 390px;
+    margin-top: 60px;
+    border-radius: 12px;
+}
+
+
+@media (max-width: 768px) {
+    * {
+      box-sizing: border-box;
+      max-width: 100%;
+    }
+  
+    body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .exceptbutton {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .first-page-content{
+    margin-left: -80px;
+  }
+
+  .exceptsectext {
+    align-items: center;
+  }
+  .ai{
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+  }
+  .changingtext{
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 35px;
+    margin-left: -60px;
+  }
+  .AiAssited {
+    position: relative;
+    flex-direction: flex;
+    align-items: center;
+    text-align: center;
+    left: 17.5%;
+  }
+
+  .twotext {
+    position: relative;
+    flex-direction: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    left: 10%;
+    bottom: 50%;
+  }
+  .twotext a{
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 65px;
+  }
+
+  .twotext p {
+    position: relative;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-left: 0px;
+    background: linear-gradient(90deg, #FF1E00 0%, #FF41C6 80.77%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .sectext {
+    position: relative;
+    text-align: center;
+    margin: -250px auto 0;
+    font-size: 1rem;
+    left: 22%;
+  }
+
+  .buttonText {
+    margin-top: 40px;
+  }
+
+  .interface img {
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+  }
+}

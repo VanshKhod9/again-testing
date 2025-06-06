@@ -1,0 +1,112 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.first-page{
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 64px;
+    gap: 187px;
+    display: flex;
+    background-color:#474747;
+    justify-content:space-around;
+    overflow-x: hidden;
+}
+.Company-Name{
+    color: #FFFFFF;
+    width: 309px;
+    height: 23px;
+    font-size: 20px;
+    display: flex;
+    margin-left: 40px;
+}
+.All-Pages{
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 210px;
+    font-size: 14px;
+    display: flex;
+    gap: 20px;
+}
+.Login-button{
+    margin-top: 15px;
+    align-items: center;
+    align-content: center;
+    width: 188px;
+    height: 37px;
+    gap: 20px;
+    font-size: 14px;
+    display: flex;
+    margin-right: 40px;
+}
+.login{
+
+    font-size: 14px;
+    font-weight: 700;
+    border-style: none;
+    background-color: #3b3a3a;
+    border-radius: 50px;
+    color: white;
+    width: 90px;
+    height: 37px;
+    top: 13.5px;
+    left: 1043px;
+    text-align: center;
+    align-content: center;
+
+}
+.sign{
+    font-size: 14px;
+    font-weight: 700;
+    border-style: none;
+    width: 90px;
+    height: 37px;
+    top: 13.5px;
+    left: 1141px;
+    gap: 10px;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    background: linear-gradient(99.59deg, #FF1E00 0.67%, #FF41C6 100.67%);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    * {
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .first-page {
+    margin-top: -10px;
+    flex-direction: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    padding-right:0px;
+    height: auto;
+  }
+    .Company-Name {
+        margin-top: -30px;
+        margin-left: 5px;
+    }
+  .All-Pages{
+    display: none;
+  }
+  .Login-button {
+    align-items: center;
+    flex-direction: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
